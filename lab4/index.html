@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab X - Subject/Topic</title>
+	<title>Lab 4 - Pseudocoding and Problem-solving</title>
 
 	<!-- Use UTF character set, a good idea with any webpage -->
   	<meta charset="UTF-8" />
@@ -23,29 +23,66 @@
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab X - Subject/Topic</h1>
+			<h1>Lab 4 - Pseudocoding and Problem-solving</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p>Restate the challenge of the lab here.</p>
+					<p>The goal was to write out a common task and the actions of a game in pseudocode.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p>What problems arose? How did you solve them? </p>
-			</div>
-
-			<div class="minor-section">
-					<h2>Reflection</h2>
-					<p>Put your reflections about this assignment here. How did it go? What kind of energy did you put into the assignment? </p>
+					<p>Our biggest concern was coming up with what task and game to write our pseudocode for. Aside from that, we had
+						no problems with the lab itself.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Results</h2>
-					<div id="output"></div>
+					<div id="output">
+						<h3>Pseudocode for an Everyday Task</h3>
+						<p>Changing an internal laptop battery:</p>
+						<ol>
+							<li>Turn off the laptop</li>
+							<li>Set the laptop on a clean surface</li>
+							<li>Flip over the laptop so that the bottom is exposed</li>
+							<li>Remove the bottom cover of the laptop (this can be held in the form of screws/latches)</li>
+							<li>Disconnect the battery’s power connector from the system board</li>
+							<li>Remove the battery and replace it with a new model (the battery may also be held in by screws or latches)</li>
+							<li>Put the bottom cover of the laptop back on</li>
+						</ol>
+						<h3>Pseudocode for a simple computer game</h3>
+						<p>Connect 4</p>
+						<ol>
+							<li>Print a 6x7 slot board</li>
+							<li>Accept user input for each column</li>
+							<li>Validate user move (if they are able to commit the move)</li>
+							<li>Move player's input piece to lowest empty space in the column</li>
+							<li>Evaluate possible moves for computer</li>
+							<li>Choose computer move</li>
+							<li>Move computer's piece to lowest empty space in the column</li>
+							<li>Confirm the winner when 4 pieces make a row, column, or diagonal</li>
+						</ol>
+						<h3>Pseudocode as comments</h3>
+						<pre><code>
+	// Print a 6x7  slot board
+	// Accept user input for each column
+		// Validate user move (if they are able to commit the move)
+		// Move player’s input piece to lowest empty space in the column
+		// Print board with player's move added
+	// Evaluate possible moves for computer
+		// Loop through each column to determine the best valid move
+		// Choose computer move
+		// Move computer’s piece to lowest empty space in the column  
+		// Print board with computer's move added 
+	// Confirm the winner when 4 pieces make a row, column, or diagonal
+						</code></pre>
+					</div>
 			</div>
 		</section>
 		<nav id="links">
 			<!-- Put links to other pages (including the homepage) here. -->
+			<a href="../index.html">Home</a>
+			<a href="../lab3/index.html">Previous</a>
+			<a href="../lab5/index.html">Next</a>
 		</nav>
 	</main>
 </body>
