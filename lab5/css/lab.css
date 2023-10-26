@@ -2,8 +2,40 @@
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
-  }
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #888;
+  background-color: #f5f5f5;
+}
+
+h3 {
+  color: #0f0f0f;
+}
+
+#links {
+  word-spacing: 5px;
+}
+
+#my-js {
+  width: 500px;
+}
+
+#challenge {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#output {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.output {
+  margin-right: 30px;
+}
+
+#accord {
+  height: 100px;
+}
