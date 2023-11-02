@@ -1,0 +1,32 @@
+.minor-section {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #888;
+  background-color: #f5f5f5;
+}
+  
+h3 {
+  color: #0f0f0f;
+}
+  
+#links {
+  word-spacing: 5px;
+}
+
+#output {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.name {
+  border: solid 1px purple;
+  background-color: lavender;
+  padding: 5px;
+  color: #0f0f0f;
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
+  font-size: 150%;
+}
