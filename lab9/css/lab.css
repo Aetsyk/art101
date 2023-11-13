@@ -1,0 +1,29 @@
+.special-section {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #888;
+  background-color: #f5f5f5;
+}
+
+h3 {
+  color: #0f0f0f;
+}
+      
+#links {
+  word-spacing: 5px;
+}
+
+.special {
+  border: solid 3px purple;
+  background-color: lavender;
+  padding-left: 10px;
+}
+
+.special p {
+  color: #0f0f0f;
+}
+
+.special img {
+  border: dotted 3px purple;
+  width: 720px;
+}

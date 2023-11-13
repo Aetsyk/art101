@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 9 - Libraries and jQuery</title>
+
+	<!-- Use UTF character set, a good idea with any webpage -->
+  	<meta charset="UTF-8" />
+	<!-- Set viewport so page remains consistently scaled w narrow devices -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- Include a sitewide CSS file for consistent styling across the site -->
+	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<!-- Lab-specifc CSS file for any special styling of this particular page -->
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	
+	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	<script src="js/lab.js" DEFER></script>
+</head>
+<body>
+    <main id="content">
+        <section>
+            <h1>Lab 9: Libraries and jQuery</h1>
+
+            <div class="special-section">
+                <h2>Challenge</h2>
+                <p>The goal of this lab is to experiment with jQuery and create a program that changes elements on a page by toggling
+                    classes on elements. The biggest challenge was setting up the jQuery.</p>
+            </div>
+
+            <div class="special-section">
+                <h2>Problems</h2>
+                <p>My main problem was that the buttons weren't toggling the special class when I attempted Task X. I observed the
+                    console, but nothing happened when I clicked the buttons. I realized that I was still appending the buttons
+                    with the button-challenge id, and I came to the conclusion that having multiple elements with the same id was
+                    causing problems. Sure enough, when I removed the id, everything worked fine!</p>
+            </div>
+
+            <div class="special-section">
+                <h2>Results</h2>
+                <p>In each section, there's a button labeled "Make Special." Click them and see what happens.</p>
+                <div id="output">
+                    <h3>JavaScript</h3>
+                    <img src="img/ART101_Lab9_js.png" alt="My JavaScript code" width="480px">
+                </div>
+            </div>
+        </section>
+
+        <nav id="links">
+            <a href="../index.html">Home</a>
+			<a href="../lab8/index.html">Previous</a>
+			<!--a href="../lab10/index.html">Next</a-->
+        </nav>
+    </main>
+</body>
