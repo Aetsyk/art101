@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 10 - JavaScript for the Web</title>
+
+	<!-- Use UTF character set, a good idea with any webpage -->
+  	<meta charset="UTF-8" />
+	<!-- Set viewport so page remains consistently scaled w narrow devices -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- Include a sitewide CSS file for consistent styling across the site -->
+	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<!-- Lab-specifc CSS file for any special styling of this particular page -->
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	
+	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	<script src="js/lab.js" DEFER></script>
+</head>
+<body>
+	<main id="content">
+		<section>
+			<h1>Lab 10: JavaScript for the Web</h1>
+
+			<div>
+				<h2>Challenge</h2>
+				<p>The goal of this assignment was to experiment with DOM manipulation. This wasn't that challenging until Task X.</p>
+			</div>
+
+			<div>
+				<h2>Problems</h2>
+				<p>I had a few small problems writing the program, but I solved them pretty quickly. I thought for a bit on how
+					I could add an input field to the program before realizing I could add it to the original function and have
+					the user's message and computer message appear at the same time. This solution helped me figure out how I
+					could make the messages look like text messages; I could add another class to the user's message that
+					aligns it to the right. I was unsure how I could align them like that, but I found a way after messing with
+					flexbox.</p>
+			</div>
+
+			<div>
+				<h2>Results</h2>
+				<p>Click the button below to see my program.</p>
+				<div id="output"></div>
+				<button id="make-convo">Say Something</button>
+			</div>
+		</section>
+
+		<nav id="links">
+			<a href="../index.html">Home</a>
+			<a href="../lab9/index.html">Previous</a>
+			<!--a href="../lab11/index.html">Next</a-->
+		</nav>
+	</main>
+</body>
+</html>
