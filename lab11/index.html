@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab 11 - JavaScript Events and Forms</title>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="../css/site.css">
+    <link rel="stylesheet" type="text/css" href="css/lab.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/lab.js" DEFER></script>
+</head>
+<body>
+    <main id="content">
+        <section>
+            <h1>Lab 11: JavaScript Events and Forms</h1>
+
+            <div>
+                <h2>Challenge</h2>
+                <p>The challenge of this lab is to experiment with JavaScript events to create a program that sorts a string (and
+                    maybe make an anagram from it too).</p>
+            </div>
+
+            <div>
+                <h2>Problems</h2>
+                <p>I didn't have any major problems during this lab, expecially since I was allowed to reuse code from a previous
+                    lab. I keep forgetting to include the # when having jQuery pick out ids, and it takes me a bit to realize every
+                    time. My biggest challenge was implimenting the features I came up with for Task X, as a lot of it had me doing
+                    things that were unfamiliar to me, like clearing a section and evaluating input from multiple sources.</p>
+            </div>
+
+            <div>
+                <h2>Results</h2>
+                <p>The result of my programming can be seen and interacted with below. Click "submit" to make an anagram from your
+                    name, or hit "Sort Only" if you just want to sort the letters. Add a title to the second box and it will be
+                    appended at the end of your anagram.</p>
+
+                <div id="output"></div>
+                <input type="text" id="user-name" placeholder="Input your name">
+                <input type="text" id="user-title" placeholder="(Optional) Input a title">
+                <button id="submit">Submit</button>
+                <button id="clear">Clear</button>
+                <button id="add-divider">Add Divider</button>
+                <button id="sort-only">Sort Only</button>
+            </div>
+        </section>
+
+        <nav id="links">
+            <a href="../index.html">Home</a>
+			<a href="../lab10/index.html">Previous</a>
+			<!--a href="../lab12/index.html">Next</a-->
+        </nav>
+    </main>
+</body>
+</html>
