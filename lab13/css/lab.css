@@ -1,0 +1,44 @@
+section>div {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #f5f5f5;
+}
+    
+#links {
+    word-spacing: 5px;
+}
+
+.fizzbuzz {
+    border: solid 1px #888;
+    background-color: lavender;
+    padding: 10px;
+}
+
+#output {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: stretch;
+    max-height: 360px;
+}
+
+#output p {
+    margin: 0px;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#limit {
+    width: 5ch;
+}
+
+#factor1, #factor2, #factor3, #factor4 {
+    width: 4ch;
+    margin-bottom: 3px;
+}
+
+#factor-p {
+    margin-bottom: 3px;
+}
