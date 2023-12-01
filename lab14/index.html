@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab 14 - Debugging Tools & Strategies</title>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="../css/site.css">
+    <link rel="stylesheet" type="text/css" href="css/lab.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/lab.js" DEFER></script>
+</head>
+<body>
+    <main id="content">
+        <section>
+            <h1>Lab 14 - Debugging Tools & Strategies</h1>
+
+            <div>
+                <h2>Challenge</h2>
+                <p>The goal of this lab was to debug older labs and experiment with debugging methods.</p>
+            </div>
+
+            <div>
+                <h2>Problems</h2>
+                <p>There weren't any bugs in my previous labs (at least not any I noticed), so I instead took the time to tidy my
+                    site up, both in appearance and in code style, while applying some of my new knowledge. Task X took more
+                    time, as I needed to come up with a function to demonstrate the debugger keyword.</p>
+            </div>
+
+            <div>
+                <h2>Results</h2>
+                <p>As a result of my changes, each lab that uses JavaScript now has a link to the source code and each lab title
+                    now uniformly uses a hyphen. I have also added new link sections to the main page. The result of my
+                    experimentation with the debugger keyword is below. Open your browser's console and use the program to see.</p>
+                <div id="debug-program">
+                    <div id="debug-input">
+                        <h3>Debugging Example: Rolling Dice</h3>
+                        <label for="sideCount">How many sides?</label>
+                        <input type="number" min="4" max="100" step="2" id="sideCount" name="sideCount" value="6">
+                        <button id="roll">Roll</button><br>
+
+                        <label for="multidice">Want to roll multiple?</label>
+                        <input type="number" min="2" max="5" id="multidice" name="multidice" value="2">
+                        <button id="roll-multiple">Roll Multiple</button>
+                    </div>
+                    <div id="debug-output"></div>
+                </div>
+            </div>
+
+            <div id="debugging">
+                <h2>Debugging</h2>
+                <p>Actually, it's not really debugging in my case.</p>
+                <div>
+                    <img src="img/ART101_Lab14_homepageHTML.png" alt="New homepage HTML code">
+                    <img src="img/ART101_Lab14_homepageHTML_output.png" alt="New homepage">
+                    <p>I added new sections to the homepage and put spaces between each element in the HTML. I put these spaces
+                        between HTML blocks into every old lab that needed them to make the code more readable.</p>
+                </div>
+
+                <div>
+                    <img src="img/ART101_Lab14_L6_Honda.png" alt="Modified CSS for Lab 6">
+                    <img src="img/ART101_Lab14_L6_Honda_output.png" alt="Honda image now even with the text section">
+                    <p>In Lab 6, there was an image of a Honda Accord that sat next to the "challenge" block. I noticed it didn't
+                        align perfectly with the block, so I slightly modified the CSS. Now it fits perfectly for computer screens.
+                        There is probably a better way to program it that lets it perfectly adjust size, but I did what I could at
+                        my current skill level.</p>
+                </div>
+            </div>
+        </section>
+
+        <nav id="links">
+            <a href="../index.html">Home</a>
+			<a href="../lab13/index.html">Previous</a>
+			<!--a href="../lab15/index.html">Next</a-->
+
+            <a href="js/lab.js" id="source-code" target="_new">Source Code</a>
+        </nav>
+    </main>
+</body>
+</html>

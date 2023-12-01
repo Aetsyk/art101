@@ -20,15 +20,15 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  gap: 10px;
 }
 
 #top .minor-section {
-  width: 90%;
-  margin-right: 10px;
+  width: 100%;
 }
 
 #top img {
-  height: 120px;
+  height: 121px;
   border: solid 1px #888;
 }
 
