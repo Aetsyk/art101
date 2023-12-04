@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab 15 - AJAX</title>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="../css/site.css">
+    <link rel="stylesheet" type="text/css" href="css/lab.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/lab.js" DEFER></script>
+</head>
+<body>
+    <main id="content">
+        <section>
+            <h1>Lab 15 - AJAX</h1>
+
+            <div>
+                <h2>Challenge</h2>
+                <p>The goal of this lab was to experiment with jQuery and AJAX and to print output from a different site's API to
+                    my site. I chose to use an API that gives random Jeopardy questions.</p>
+            </div>
+
+            <div>
+                <h2>Problems</h2>
+                <p>I wanted to have a button appear along with the question that would show the answer when clicked. However, for
+                    some reason, click listeners don't work with elements created by jQuery, or at least I couldn't get it to work.
+                    So I decided to create the button outside of the output and hide it, revealing it when the question is
+                    generated and hiding it when clicked or a new question is being fetched.</p>
+            </div>
+
+            <div>
+                <h2>Results</h2>
+                <p>Below is the result of my experimentation with AJAX. Try to guess the answer before clicking the
+                    "Show Answer" button!</p>
+                <h3>API: Jeopardy</h3>
+                <div id="output"></div>
+                <button id="activate">Activate</button>
+                <button id="show" class="hidden">Show Answer</button>
+            </div>
+        </section>
+
+        <nav id="links">
+            <a href="../index.html">Home</a>
+			<a href="../lab14/index.html">Previous</a>
+			<!--a href="../lab16/index.html">Next</a-->
+
+            <a href="js/lab.js" id="source-code" target="_new">Source Code</a>
+            <a href="https://jservice.io/" id="api-link" target="_new">API</a>
+        </nav>
+    </main>
+</body>
+</html>

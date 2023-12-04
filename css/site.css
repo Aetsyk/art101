@@ -42,3 +42,17 @@ ul {
 #source-code {
   float: right;
 }
+
+@media only screen and (min-width: 992px) and (orientation: landscape) {
+  #me {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+  }
+  
+  ul {
+    display: flex;
+    flex-flow: column wrap;
+    max-height: 96px;
+  }
+}
