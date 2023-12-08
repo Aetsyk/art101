@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab 16 - JSON and APIs</title>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="../css/site.css">
+    <link rel="stylesheet" type="text/css" href="css/lab.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/lab.js" DEFER></script>
+</head>
+<body>
+    <main id="content">
+        <section>
+            <h1>Lab 16 - JSON and APIs</h1>
+
+            <div>
+                <h2>Challenge</h2>
+                <p>The goal of this lab was to experiment with processing JSON from an API, using
+                    <a href="https://xkcd.com/json.html">xkcd.com</a> as an endpoint.</p>
+            </div>
+
+            <div>
+                <h2>Problems</h2>
+                <p>I didn't have any major issues whil working on this lab. I originally tried to assign the JSON object to
+                    a variable in the AJAX call and then work with the variable outside of the call. However, I found out
+                    that everything after the call keeps running while the JSON is obtained, so I moved everything into the
+                    AJAX function.</p>
+            </div>
+
+            <div>
+                <h2>Results</h2>
+                <p>Overall, this lab wasn't too difficult. Below is the program I made that processes JSON from an API.</p>
+
+                <div id="output"></div>
+                <div id="output-control">
+                    <button id="prev">Prev</button>
+
+                    <div>
+                        <input type="number" id="comic-num" min="1">
+                        <button id="goto">Go to</button>
+                    </div>
+
+                    <button id="next">Next</button>
+                </div>
+            </div>
+        </section>
+
+        <nav id="links">
+            <a href="../index.html">Home</a>
+			<a href="../lab15/index.html">Previous</a>
+
+            <a href="js/lab.js" id="source-code" target="_new">Source Code</a>
+        </nav>
+    </main>
+</body>
+</html>
